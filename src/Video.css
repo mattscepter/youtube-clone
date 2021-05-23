@@ -1,0 +1,44 @@
+.videoCard{
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 23%;
+    min-width: 280px;
+    
+}
+.videoCard>img{
+    object-fit:cover;
+}
+
+.videoCard__info{
+    display: flex;
+    margin-top: 15px;
+}
+.videoCard__avatar{
+    margin-right: 10px;
+}
+
+.video__text>p{
+    font-size: 0.9rem;
+    color: rgb(83, 83, 83);
+}
+.video__text>h4{
+    font-size: 1rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px){
+    .videoCard{
+        min-width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .videoCard__info{
+        margin: 15px;
+    }
+    
+}
